@@ -1,0 +1,112 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+p{
+  font-size: 1.3rem;
+}
+
+hr{
+  margin:0;
+  background-color: #e8e8e8;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #eeeeee;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.nav-logo {
+  width: 12%;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.2rem;
+}
+
+.nav-padded {
+  padding: 10px 12% 0;
+}
+
+.title-image {
+  position: absolute;
+  left: 40%;
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  padding: 0 13%;
+  background-color: #931a25;
+  text-align: right;
+}
+
+.ico-header {
+  padding: 18px 10px;
+  font-size: 25px;
+}
+
+.btn-space {
+  margin: 5% 3% 5% 0;
+}
+
+#title .container-fluid{
+  padding: 4% 12% 15%;
+  text-align: left;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1030px) {
+  #title {
+    text-align: center;
+  }
+}
+
+#mission-statement .container-fluid{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#branches {
+  /* background-color: #e97171; */
+}
+
+.branch-img{
+  width: 70%;
+  height: auto;
+  padding: 5%;
+}
+
+#branch h3{
+  text-align: center;
+}
+
+.branch-text {
+  text-align: center;
+}
