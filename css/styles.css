@@ -29,6 +29,16 @@ hr {
   line-height: 1.5;
 }
 
+.parallax:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* Navigation Bar */
 .nav-logo {
   width: 12%;
   height: auto;
@@ -47,6 +57,7 @@ hr {
 .nav-padded {
   padding: 10px 12% 0;
 }
+
 
 .title-image {
   position: absolute;
@@ -106,18 +117,39 @@ hr {
 }
 
 .bg-branch {
-  background-color: #81b214;
+  /* background-color: #81b214; */
+  background-color: #931a25
+}
+
+#branches {
+  text-align: center;
+}
+
+#branches .parallax {
+  background: url('../images/sunset.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  height: 700px;
+  position: relative;
+  padding: 0 10%;
 }
 
 .card-header {
   font-size: 1.5rem;
 }
 
+.card {
+  margin: 40% auto;
+  background: rgba(160, 0, 0, 0.7);
+  border-radius: 5%;
+}
 
 #conference {
   text-align: center;
   color: #fff;
 }
+
 #conference .section-heading {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -127,33 +159,41 @@ hr {
   position: relative;
 }
 
-.conf-descript{
+.conf-descript {
   padding: 10px 15%;
   font-size: 2.5rem;
   position: relative;
 }
 
-.conf-btn{
+.conf-btn {
   margin: 50px 25px;
   padding: 10px 5%;
   position: relative;
 }
 
-.parallax:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background: rgba(0,0,0,0.7);
+#conference .parallax:before {
+  background: rgba(0, 0, 0, 0.7);
 }
 
-.parallax{
+#conference .parallax {
   background: url('../images/conference-full.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 500px;
   height: 900px;
-  position:relative;
+  position: relative;
+}
+
+/* Testimonials */
+
+.testimonial-text{
+  font-size: 2rem;
+  line-height:1.5;
+}
+
+.testimonial-image {
+  padding-top: 20px;
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
 }
