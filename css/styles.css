@@ -8,7 +8,6 @@ p {
 
 hr {
   margin: 0;
-  background-color: #e8e8e8;
 }
 
 .container-fluid {
@@ -57,7 +56,6 @@ hr {
 .nav-padded {
   padding: 10px 12% 0;
 }
-
 
 .title-image {
   position: absolute;
@@ -118,7 +116,7 @@ hr {
 
 .bg-branch {
   /* background-color: #81b214; */
-  background-color: #931a25
+  background-color: #931a25;
 }
 
 #branches {
@@ -179,16 +177,14 @@ hr {
   background: url('../images/conference-full.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
   height: 900px;
   position: relative;
 }
 
 /* Testimonials */
-
-.testimonial-text{
+.testimonial-text {
   font-size: 2rem;
-  line-height:1.5;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -196,4 +192,103 @@ hr {
   margin: 20px;
   width: 10%;
   border-radius: 100%;
+}
+
+/* Featured Event */
+#featured-event{
+  padding-bottom: 7%
+}
+
+.featured-img {
+  width: 100%;
+}
+
+.featured-text {
+  text-align: left;
+  padding-left: 5%;
+}
+
+.vl{
+  margin: 0 10px 0 18px;
+  border-left: 2px solid #931a25;;
+  height: 400px;
+}
+
+/* Call to Action */
+#cta{
+  padding-top: 5%;
+}
+
+.cta-text {
+  padding: 3% 18%;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.btn-cta {
+  background: #DD6969;
+  background-image: -webkit-linear-gradient(top, #DD6969, #931A25);
+  background-image: -moz-linear-gradient(top, #DD6969, #931A25);
+  background-image: -ms-linear-gradient(top, #DD6969, #931A25);
+  background-image: -o-linear-gradient(top, #DD6969, #931A25);
+  background-image: linear-gradient(to bottom, #DD6969, #931A25);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding: 18px;
+  text-decoration: none;
+  border: solid #D12020 0px;
+}
+
+.btn-cta:hover {
+  border: solid #D12020 0px;
+  background: #D70D0D;
+  background-image: -webkit-linear-gradient(top, #D70D0D, #C93B4F);
+  background-image: -moz-linear-gradient(top, #D70D0D, #C93B4F);
+  background-image: -ms-linear-gradient(top, #D70D0D, #C93B4F);
+  background-image: -o-linear-gradient(top, #D70D0D, #C93B4F);
+  background-image: linear-gradient(to bottom, #D70D0D, #C93B4F);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6;
+  text-decoration: none;
+}
+
+.hr-cta {
+  width: 50%;
+  margin: auto;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* Newsletter */
+
+#newsletter .container-fluid{
+  padding: 7% 20%;
+  text-align: center;
+}
+
+#newsletter .parallax:before{
+  background: rgba(192,192,192,0.5);
+}
+
+#newsletter .parallax{
+  background: url("../images/worship-team.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  position: relative;
+}
+
+#newsletter .section-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 1.5;
+  padding-top: 200px;
+  position: relative;
 }
